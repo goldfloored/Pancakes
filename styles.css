@@ -1,0 +1,58 @@
+.header{
+    position: relative;
+    font-size: 100%;
+    text-align: center;
+    
+}
+li {
+    list-style-type: none;
+    float: left;
+  }
+  
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+body{
+    background-color: grey;
+    color:white;
+    font-family: courier;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    padding: 40px;
+    background-color: teal;
+}
+nav{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    text-decoration: none; 
+    color: #ffffff; 
+    line-height: 12px;
+    font-weight: 50px;
+    padding: 0 10px;
+    font-size: 13px;
+}
+.section{
+    padding: 20px;
+    width: 500px;
+    line-height: 1.7em;
+}
+.aside{
+    width: 30%;
+    padding-right: 70px;
+    margin-right: 70px;
+    float: right;
+}
+.article{
+    margin: 10px;
+    padding: 5px;
+}
+.footer{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
